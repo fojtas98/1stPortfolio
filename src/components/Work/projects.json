@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "heading": "Hromosvody Vrkoc",
+      "des": "Quisque id mi. Mauris turpis nunc, blandit et, volutpat molestie, porta ut, ligula. Nulla facilisi. Ut non enim eleifend felis pretium feugiat. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam.",
+      "img": "hromosvodyvrkoc.png",
+      "hoverImg": "hromosvodyvrkoc_admin.png",
+      "gitHub": "https://github.com/fojtas98/HromosvodyVrkoc",
+      "link": "http://hromosvody-vrkoc.s3-website.eu-central-1.amazonaws.com/",
+      "tag": [
+        "reactjs",
+        "nodejs",
+        "mongodb",
+        "graphql",
+        "express",
+        "backend",
+        "frontend",
+        "css"
+      ]
+    },
+    {
+      "id": 2,
+      "heading": "mojeZavet.cz",
+      "des": "App for online creation of Will",
+      "hoverImg": "fareWillHover.jpg",
+      "img": "fareWill.jpg",
+      "tag": ["mongodb", "nodejs"],
+      "txtColor": "black"
+    },
+    {
+      "id": 3,
+      "heading": "danesicafe.cz",
+      "des": "Site for reseler of danesi cafe for Czech republic",
+      "hoverImg": "hromosvodyvrkoc_admin.png",
+      "img": "hromosvodyvrkoc.png",
+      "txtColor": "black",
+      "tag": ["mongodb", "nodejs"]
+    },
+    {
+      "id": 4,
+      "heading": "1st portfolio",
+      "des": "My first humble site with portfoli",
+      "hoverImg": "portfolio.jpg",
+      "img": "portfolio.jpg",
+      "txtColor": "black",
+      "gitHub": "https://github.com/fojtas98/1stPortfolio",
+      "link": "",
+      "tag": ["reactjs", "css", "frontend"]
+    }
+  ]
+}

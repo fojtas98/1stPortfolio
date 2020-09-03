@@ -1,0 +1,52 @@
+.aboutMe {
+  font-family: myFirstFont;
+  font-size: 3rem;
+  color: #1b1b1e;
+  text-align: left;
+  height: 100vh;
+  background-color: #d8dbe2;
+}
+
+.aboutMe h1 {
+  margin: 0;
+  text-align: center;
+}
+.aboutMe h2 {
+  text-align: center;
+}
+.aboutMe p {
+  margin: 4rem;
+}
+
+.aboutMeText {
+  margin: auto;
+  width: fit-content;
+  margin-top: 6rem;
+  font-size: 2.5rem;
+}
+
+.getBlue {
+  color: #58a4b0;
+}
+@media only screen and (max-width: 700px) {
+  .aboutMe h1 {
+    font-size: 4rem;
+  }
+
+  .aboutMe h2 {
+    font-size: 1.25rem;
+  }
+  .aboutMe p {
+    font-size: 1.5rem;
+    /* margin-t; */
+  }
+  .aboutMeText {
+    margin: 0.5rem;
+  }
+
+  .heading {
+    color: #1b1b1e;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}

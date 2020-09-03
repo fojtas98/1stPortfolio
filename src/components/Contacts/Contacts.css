@@ -1,0 +1,99 @@
+.contact {
+  font-family: myFirstFont;
+  font-size: 3rem;
+  justify-content: center;
+}
+
+.contact h1 {
+  text-align: center;
+}
+.contactCard {
+  width: 80%;
+  margin: 10rem auto 10rem auto;
+  display: flex;
+  justify-content: center;
+
+  border-radius: 15px;
+}
+.info h5 {
+  margin: 1.2rem;
+  font-size: 0.7em;
+}
+.info {
+  height: fit-content;
+}
+
+.contactCard img {
+  height: 20rem;
+  margin: auto 3rem;
+  border-radius: 15px;
+}
+
+.info a {
+  color: #f88d63;
+  font-size: 2rem;
+}
+
+.socialMedia {
+  display: flex;
+}
+.socialMedia div {
+  display: flex;
+  margin: auto 0;
+  justify-content: start;
+  /* width: 50rem;
+  height: 5rem; */
+}
+.socialMedia div a {
+  max-height: 3rem;
+  max-width: 3rem;
+  margin: 0 0.3rem;
+}
+.socialMedia div img {
+  width: 3rem;
+  max-height: 3rem;
+  border-radius: 6px;
+  margin: 0;
+}
+.socialMedia div img:hover {
+  opacity: 0.7;
+}
+.socialMedia h5 {
+  margin: auto 19.2px;
+}
+
+@media only screen and (max-width: 700px) {
+  .contactCard {
+    flex-direction: column-reverse;
+    margin: 0;
+  }
+  .contact h1 {
+    font-size: 2.5rem;
+  }
+  .info {
+    font-size: 2rem;
+  }
+  .info a {
+    font-size: 1.4rem;
+  }
+  .contactCard img {
+    margin-top: 2rem;
+  }
+  .contactCard {
+    width: 100%;
+  }
+
+  .info {
+    max-width: 100%;
+  }
+  .socialMedia img {
+    display: block;
+  }
+  .socialMedia div img {
+    max-height: 2.5rem;
+    max-width: 2.5rem;
+  }
+  .socialMedia h5 {
+    margin: auto 0 auto 19.2px;
+  }
+}
