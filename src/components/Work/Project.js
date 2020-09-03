@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "animate.css";
 import "./Project.css";
 const Project = (props) => {
@@ -15,10 +15,10 @@ const Project = (props) => {
           <p>{props.des}</p>
           {props.link ? (
             <div>
-              <a href={props.link} target="_blank">
+              <a href={props.link} target="_blank" rel="noopener noreferrer">
                 View Live
               </a>
-              <a href={props.gitHub} target="_blank">
+              <a href={props.gitHub} target="_blank" rel="noopener noreferrer">
                 GitHub
               </a>
             </div>
