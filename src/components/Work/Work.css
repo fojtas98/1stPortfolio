@@ -4,6 +4,7 @@
 }
 .work h1 {
   font-size: 5rem;
+  text-align: center;
 }
 .work h3 {
   font-size: 2rem;
@@ -39,6 +40,7 @@
   font-size: 1.4rem;
   color: #2c2b3c96;
   margin: 0.3rem;
+  font-size: center;
 }
 
 .default:hover,
