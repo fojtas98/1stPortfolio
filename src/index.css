@@ -27,7 +27,7 @@ a {
 h1,
 h3,
 .lfm__typing_effect_text {
-  font-family: myFirstFont;
+  font-family: myFirstFont, sans-serif;
 }
 p,
 span,
