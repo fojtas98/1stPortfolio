@@ -1,6 +1,7 @@
 @font-face {
   font-family: myFirstFont;
   src: url(./Fonts/SourceCodePro-Black.ttf);
+  font-display: swap;
 }
 
 html,
